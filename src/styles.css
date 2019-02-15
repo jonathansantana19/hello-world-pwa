@@ -175,7 +175,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('assets/img/slide01.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -302,7 +302,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
+  background: url('assets/img/wear.png') center top no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -373,7 +373,7 @@ a img{
   }
 
 .android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
+  background: url('assets/img/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }
@@ -539,4 +539,20 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('assets/img/tv-on.jpg') bottom right 15% no-repeat #46B6AC;
+}
+
+
+.demo-list-action {
+  width: 800px;
 }
